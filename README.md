@@ -1,42 +1,67 @@
 # Lean 4 Notes
 
-Учебная тетрадь по Lean 4.
+A public study repository documenting my Lean 4 learning journey as a logic student.
 
-В репозитории собраны:
-- простые функции на `Nat`
-- базовые логические доказательства
-- упражнения на `→`, `∧`, `∨`, `¬`, `=`
-- примеры с `intro`, `exact`, `cases`, `rw`, `rfl`
+This repository collects my notes, examples, and exercises while studying functional programming, formal proofs, and basic theorem proving in Lean 4.
 
-## Цель
+## Contents
 
-Этот репозиторий нужен для:
-- фиксации прогресса в Lean 4
-- хранения учебных примеров
-- практики базовых доказательств
+- simple functions on `Nat`
+- evaluation with `#eval`
+- pattern matching and recursive definitions
+- basic proofs in propositional logic
+- exercises with `→`, `∧`, `∨`, `¬`, and `=`
+- rewriting and case analysis
+- arithmetic proofs over natural numbers
+- induction on `Nat`
+- inequalities and simple number-theoretic examples
+- classical logic exercises
 
-## Темы
+## Purpose
 
-### Функции
-- определения через `def`
-- вычисление через `#eval`
-- `match`
-- рекурсия
-- анонимные функции `fun`
+The purpose of this repository is to:
+- track my progress in Lean 4
+- organize study materials in one place
+- practice writing formal proofs
+- connect logic coursework with proof formalization
 
-### Логика
-- импликация `→`
-- конъюнкция `∧`
-- дизъюнкция `∨`
-- отрицание `¬`
-- равенство `=`
+## Topics
 
-## Используемые приёмы
+### Functions
+- definitions with `def`
+- evaluation with `#eval`
+- pattern matching with `match`
+- recursion
+- anonymous functions with `fun`
+
+### Logic
+- implication `→`
+- conjunction `∧`
+- disjunction `∨`
+- negation `¬`
+- equality `=`
+- constructive and classical proof examples
+
+### Natural numbers
+- arithmetic on `Nat`
+- properties of addition and multiplication
+- inequalities `≤` and `<`
+- recursive numeric functions
+
+### Proof techniques
 - `intro`
 - `exact`
 - `cases`
 - `rw`
 - `rfl`
+- `simp`
+- `have`
+- `calc`
+- `show`
+- `induction`
+- `by_cases`
+- `conv`
 
-## Статус
-Репозиторий учебный и будет постепенно дополняться.
+## Status
+
+Work in progress...
