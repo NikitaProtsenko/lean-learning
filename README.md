@@ -1,6 +1,6 @@
 # Lean 4 Notes
 
-A public study repository documenting my Lean 4 learning journey as a logic student.
+A public study repository documenting my Lean 4 learning journey as a student of logic.
 
 This repository collects my notes, examples, and exercises while studying functional programming, formal proofs, and basic theorem proving in Lean 4.
 
@@ -28,39 +28,21 @@ The purpose of this repository is to:
 ## Topics
 
 ### Functions
-- definitions with `def`
-- evaluation with `#eval`
-- pattern matching with `match`
-- recursion
-- anonymous functions with `fun`
+
+Functions := { `def`, `#eval`, `match`, recursion, `fun` }
 
 ### Logic
-- implication `→`
-- conjunction `∧`
-- disjunction `∨`
-- negation `¬`
-- equality `=`
-- constructive and classical proof examples
 
-### Natural numbers
-- arithmetic on `Nat`
-- properties of addition and multiplication
-- inequalities `≤` and `<`
-- recursive numeric functions
+Logic := { `→`, `∧`, `∨`, `¬`, `=`, constructive proofs, classical proofs }
 
-### Proof techniques
-- `intro`
-- `exact`
-- `cases`
-- `rw`
-- `rfl`
-- `simp`
-- `have`
-- `calc`
-- `show`
-- `induction`
-- `by_cases`
-- `conv`
+
+### Natural Numbers
+
+NatTopics := { arithmetic on `Nat`, addition, multiplication, `≤`, `<`, recursive numeric functions }
+
+### Proof Techniques
+
+ProofTechniques := { `intro`, `exact`, `cases`, `rw`, `rfl`, `simp`, `have`, `calc`, `show`, `induction`, `by_cases`, `conv` }
 
 ## Status
 
